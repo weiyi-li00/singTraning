@@ -9,11 +9,17 @@
 </head>
 
 <body>
+    <ul>
+        <li><a href="./index.html">index</a></li>
+        <li><a href="./PDF.html">PDF</a></li>
+        <li><a href="./fabric.html">fabric</a></li>
+      </ul>
     <canvas id="canvas" style="border: 1px solid #000"></canvas>
-
+    <input type="file" accept="application/pdf" placeholder="選擇PDF檔案" />
     <!-- 引入pdf.js的套件 -->
+    <script src="https://unpkg.com/fabric@latest/dist/fabric.js"></script>
     <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
-    <script src="/pdf.js"></script>
+    <script src="./pdf.js"></script>
 </body>
 
 </html>
